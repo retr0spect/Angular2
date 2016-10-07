@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
           </div>
       </fa-another>
       <fa-another>
-          <h1>Something Else</h1>
+          <h3>Something Else</h3>
       </fa-another>
 `,
   styles: [`
