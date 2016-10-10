@@ -10,4 +10,7 @@
 <h3>Custom Property Binding</h3>
 <app-property-binding [result]="10"></app-property-binding>
 <hr>
-<app-event-binding></app-event-binding>
+<app-event-binding (clicked)="onClicked($event)"></app-event-binding>
+<hr>
+<h1>Two Way Binding</h1>
+<app-two-way-binding></app-two-way-binding>
